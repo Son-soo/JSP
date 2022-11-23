@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>내장 객체 - request</title>
+<title>내장 객체 - Request</title>
 </head>
 <body>
 		<h2>1. 클라이언트와 서버의 환경정보 읽기</h2>
@@ -12,7 +12,7 @@
 			GET 방식 전송
 		</a>
 		<br />
-		<form action="RequestWebInfo.jsp" method="post">      <!-- POST 방식으로 요청 -->
+		<form action="RequestWebInfo.jsp" method="Post">      <!-- POST 방식으로 요청 -->
 				영어 : <input type="text" name="eng" value="Bye" /> <br />
 				한글 : <input type= "text" name ="han" value= "잘 가" /> <br />
 				<input type="submit" value="POST 방식 전송" />
