@@ -15,7 +15,7 @@
 	<h2>request 영역의 속성값 삭제하기</h2>
 	<%
 		request.removeAttribute("requestString");
-		request.removeAttribute("requestInteger");  //존재하지 안항도 삭제를 시도해서 에러가 발생하지 않는다.
+		request.removeAttribute("requestInteger");  //존재하지 않아도 삭제를 시도해서 에러가 발생하지 않는다.
 	%>
 	<h2>request 영역의 속성값 읽기</h2>
 	<%

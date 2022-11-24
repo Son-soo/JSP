@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>request 영역</title>
 </head>
 <body>
 		<h2>포워드로 전달된 페이지</h2>
